@@ -92,6 +92,7 @@ public:
             return false;
         }
 
+
 #ifdef FREETYPE
         if (!m_fontRenderer.InitFontRenderer()) {
             return false;
